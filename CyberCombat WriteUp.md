@@ -73,6 +73,8 @@ nmap --script=smb-vuln-ms17-010 -p 139,445 192.168.83.130
 nmap --script=ftp-proftpd-backdoor -p 21 192.168.83.128
 nmap --script=mysql-empty-password -p 3306 192.168.83.128
 
+# Nmap important write up
+
 A- in this part of the write up i will be covering most of the operations and things that nmap can do under a sequence of commands so that it could be more enjoyable to read than something resembling to a documentation:
 
 1-i use ifconfig to get my ip subnet so that i can scan the devices connected to my lan.
