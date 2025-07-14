@@ -155,8 +155,11 @@ for dicovering different scripts.
 (--min-rate=5000) wich sends packets no slower then 5000 per seconf.
 
 3-nmap --script=http-title,http-methods -p 80 '.'.'.'(for http)
+
 nmap --script=ftp-anon -p 21 '.'.'.' (for ftp)
+
 nmap --script=smb-enum-shares,smb-os-discovery -p 139,445 '.'.'.' (for smb)
+
 nmap --script=mysql-info -p 3306 '.'.'.' (for mysql)
 
 -   i will use these scripts wich are enumeration scripts wich fall under many categories (auth,safe,default..) so that i learn more about the services and the ports 80,21.445,3306 are all default ports that i specified that will work with their following service.
